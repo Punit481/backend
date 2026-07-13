@@ -29,4 +29,13 @@ export class User {
 
   @Column({ default: 'user' })
   role!: string;
+
+  @Column()
+  contactNumber!: string;
+
+  @Column()
+  age!: number;
+
+  @Column()
+  designation!: string;
 }
